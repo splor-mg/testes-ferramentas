@@ -1,63 +1,43 @@
 # README
 
-Short sentence describing what this project does and who it is for.
+Repositório para avaliação e comparação de ferramentas de BI open source, considerando integração, visualização, governança, performance e facilidade de uso.
 
-## Context & Problem
+## Contexto
 
-Explain *why* this exists.
+Este projeto centraliza análises e benchmarks de ferramentas de BI open source para facilitar decisões técnicas e comparação entre plataformas.
 
-* What problem does it solve?
-* Who uses it?
-* What process does it automate or improve?
+## Objetivos
 
-Example:
+- Comparar ferramentas de forma padronizada.
+- Documentar vantagens e limitações.
+- Registrar testes e benchmarks.
+- Facilitar consultas futuras.
 
-> This project automates the extraction and normalization data from an API, generating a clean CSV for analysis and dashboards.
+## Configuração
 
-## Features
-
-Bullet list of what the project does.
-
-* Fetches data from source X.
-* Validates and cleans records.
-* Generates CSV / JSON output.
-* Logs failures.
-
-This is for *non-technical readers*.
-
-## Prerequisites
-
-These should be **identical in almost all repos**:
-
-- [Python 3.10+](https://www.python.org/).
-- [Poetry](https://python-poetry.org/docs/#installation).
-
-## Setup
-
-Clone the repo and install dependencies:
+Clone o repositório e instale as dependências:
 
 ```bash
-# clone the repo
+# clonar repositório
 git clone <repo-url>
 cd <project>
 
-# create env file
+# criar arquivo de ambiente
 cp .env.example .env
 
-# install dependencies
+# instalar dependências
 poetry install
 
-# activate virtual env
+# ativar ambiente virtual
 eval $(poetry env activate)
 ```
 
-## Task
+## Tasks
 
-To see all project's tasks.
+Para visualizar todas as tasks disponíveis no projeto:
 
 ```bash
-# Need virtual environment activated
-# otherwise run 'poetry run task list'
+# requer ambiente virtual ativado
+# ou utilize: poetry run task list
 task list
 ```
-
